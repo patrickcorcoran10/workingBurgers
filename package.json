@@ -1,0 +1,26 @@
+{
+  "name": "workingburgers",
+  "version": "1.0.0",
+  "description": "An attempt at a working Burger App",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickcorcoran10/workingBurgers.git"
+  },
+  "author": "Pat Corcoran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickcorcoran10/workingBurgers/issues"
+  },
+  "homepage": "https://github.com/patrickcorcoran10/workingBurgers#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
