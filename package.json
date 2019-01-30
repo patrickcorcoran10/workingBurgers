@@ -1,10 +1,19 @@
 {
-  "name": "workingburgers",
+  "name": "working-burgers",
   "version": "1.0.0",
-  "description": "An attempt at a working Burger App",
+  "description": "mySQL, Handlebars, ORM, project that allows the user to create hamburgers, \"devour\" them, and delete them from the board.",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12",
+    "mysql": "^2.16.0",
+    "orm": "^5.0.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
@@ -16,11 +25,5 @@
   "bugs": {
     "url": "https://github.com/patrickcorcoran10/workingBurgers/issues"
   },
-  "homepage": "https://github.com/patrickcorcoran10/workingBurgers#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
-  }
+  "homepage": "https://github.com/patrickcorcoran10/workingBurgers#readme"
 }

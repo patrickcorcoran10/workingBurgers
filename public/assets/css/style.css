@@ -1,7 +1,67 @@
-body {
+/* body {
     background: yellow;
 }
 
 #burger_board {
     align-content: center;
+} */
+
+h1 {
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    text-shadow: 2px 2px 4px gray;
+}
+
+#burger{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create-form {
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    text-shadow: 2px 2px 4px gray;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px gray;
+}
+
+p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.card {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 0 px;
+
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.border-right {
+    border-right: 1px dashed black;
+    border-top: 1px dashed black;
+}
+
+.border-left {
+    border-left: 1px dashed black;
+    border-top: 1px dashed black;
+}
+
+.card-body {
+    background-color: greenyellow;
 }
