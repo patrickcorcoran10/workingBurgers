@@ -16,7 +16,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="mb-3">Eat Da Burger!</h1>
+        <h1 class="mb-3">Burger's for Sale</h1>
         <img class="mb-3" src="/assets/img/burger.png" width="240" height="240">
       </div>
     </div>
@@ -27,7 +27,7 @@
 
   <div class="row text-center">
     <div class="col-md-6">
-      <h2 class="bg-white">Eat Us!!</h2>
+      <h2 class="bg-white">Hungry?</h2>
       <ul class="list-group shadow-lg">
         {{#each burgers}} {{#if this.devoured}} {{else}}
         <li class="list-group-item">
@@ -39,7 +39,7 @@
 
     </div>
     <div class="col-md-6">
-      <h2 class="bg-white">Devoured Burgers!</h2>
+      <h2 class="bg-white">Consumed!</h2>
 
       <ul class="list-group shadow-lg">
         {{#each burgers}} {{#if this.devoured}}
@@ -55,7 +55,7 @@
   </div>
   <div class="row text-center mt-5 bg-white">
     <div class="col-md-12 p-4 shadow-lg">
-      <h2 class="mb-4">Enter a burger you'd like to eat:</h2>
+      <h2 class="mb-4">Create Your Own:</h2>
       <div>
         <form action="/api/burgers" method="POST">
           <textarea type="text" rows="1" name="burger"></textarea><br><button type="submit" class="btn btn-outline-dark mt-2">Submit</button>
